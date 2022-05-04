@@ -1,36 +1,23 @@
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hover, Animations, Transitions & Transformations</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
-  <div class="w-4/5 mx-auto text-center py-12">
-      <a 
-      class="bg-blue-500 text-white py-4 px-8 rounded text-xl hover:bg-blue-300 transition-color duration-200 delay-200"
-      href="">
-      Click Here
-      </a>
-  </div>
-
-  <img src="https://cdn.pixabay.com/photo/2022/04/15/19/54/flowers-7135053_960_720.jpg"
-  class="animate-spin"
-  />
-
-  <img src="https://cdn.pixabay.com/photo/2022/04/15/19/54/flowers-7135053_960_720.jpg"
-  class="transform transition-all hover:scale-125"
-  />
-
-  <img src="https://cdn.pixabay.com/photo/2022/04/15/19/54/flowers-7135053_960_720.jpg"
-  class="transform transition-all hover:rotate-45"
-  />
-
-  <img src="https://cdn.pixabay.com/photo/2022/04/15/19/54/flowers-7135053_960_720.jpg"
-  class="transform transition-all hover:skew-x-6"
-  />
-
-  <img src="https://cdn.pixabay.com/photo/2022/04/15/19/54/flowers-7135053_960_720.jpg"
-  class="transform transition-all hover:translate-x-6"
-  />
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Design</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div
+      class="
+        grid grid-cols-1
+        sm:grid-cols-2
+        md:grid-cols-3
+        lg:grid-cols-4
+      "
+    >
+      <div class="bg-blue-500 md:text-white">Item 1</div>
+      <div class="bg-red-500">Item 2</div>
+      <div class="bg-green-500">Item 3</div>
+      <div class="bg-yellow-500">Item 4</div>
+    </div>
+  </body>
+</html>
